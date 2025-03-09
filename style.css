@@ -8,10 +8,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
     padding: 2px;
     border-color: black;
     border-bottom: 1px solid;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 240, 217);
 }
 
 header a {
@@ -22,6 +23,33 @@ header a {
 header .logo img{
     width: 55px;
     height: 75px;
+}
+
+header .categorias {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .pesquisar {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+header .pesquisar p {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: black;
+}
+
+header .pesquisar img{
+    width: 25px;
+    height: 30px;
 }
 
 main {
