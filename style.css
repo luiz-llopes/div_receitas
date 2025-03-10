@@ -11,7 +11,7 @@ header {
     max-width: 100%;
     padding: 2px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    background-color: rgb(250, 236, 206);
+    background-color: rgb(238, 238, 194);
 }
 
 header a {
@@ -100,6 +100,12 @@ main img:hover {
     transform: scale(1.05);
 }
 
+main .pais {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 main .receitas-rapidas p, .receitas-caseiras p, .receitas-fitness p, .receitas-internacionais p, .receitas-iniciantes p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -109,8 +115,8 @@ main .receitas-rapidas img, .receitas-caseiras img, .receitas-fitness img, .rece
     width: 300px;
 }
 
-main .receitas-rapidas .receitas-rapidas-grade, .receitas-caseiras .receitas-caseiras-grade, .receitas-fitness .receitas-fitness-grade, .receitas-internacionais 
-.receitas-internacionais-grade,.receitas-iniciantes .receitas-iniciantes-grade {
+main .receitas-rapidas .receitas-rapidas-grade, .receitas-caseiras .receitas-caseiras-grade, .receitas-fitness .receitas-fitness-grade, 
+.receitas-internacionais .receitas-internacionais-grade,.receitas-iniciantes .receitas-iniciantes-grade {
     display: flex;
     width: 100%;
     justify-content: space-between;
