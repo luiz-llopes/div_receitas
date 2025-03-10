@@ -93,11 +93,16 @@ main .receitas-rapidas a, .receitas-caseiras a, .receitas-fitness a, .receitas-i
 }
 
 main a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(253, 80, 80);
+}
+
+main img:hover {
+    transform: scale(1.05);
 }
 
 main .receitas-rapidas p, .receitas-caseiras p, .receitas-fitness p, .receitas-internacionais p, .receitas-iniciantes p{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 main .receitas-rapidas img, .receitas-caseiras img, .receitas-fitness img, .receitas-internacionais img, .receitas-iniciantes img {
