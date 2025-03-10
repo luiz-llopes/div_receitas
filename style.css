@@ -70,7 +70,7 @@ main {
 main .imagem-principal {
     padding: 10px;
     background-color: rgb(238, 238, 194);
-    box-shadow: 0px 0px 7px rgba(253, 209, 113, 0.3);
+    box-shadow: 0px 0px 7px rgba(255, 212, 120, 0.424);
     margin-bottom: 35px;
 }
 
@@ -83,7 +83,7 @@ main .receitas-rapidas, .receitas-caseiras, .receitas-fitness, .receitas-interna
     background-color: rgb(238, 238, 194);
     padding: 10px;
     margin-bottom: 35px;
-    box-shadow: 0px 0px 7px rgba(255, 212, 120, 0.3);
+    box-shadow: 0px 0px 7px rgba(255, 212, 120, 0.424);
 }
 
 main .receitas-rapidas a, .receitas-caseiras a, .receitas-fitness a, .receitas-internacionais a, .receitas-iniciantes a {
