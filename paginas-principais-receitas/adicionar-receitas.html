@@ -32,8 +32,36 @@
     <main>
         <div class="adicionar-receitas-titulo">
             <h1>Adicionar Receitas</h1>
-            <h4>Preencha o formulário e faça parte da nossa comunidade de Receitas!</h4>
+            <p><b>preencha o formulário e faça parte da nossa comunidade de Receitas!</b> </p>
         </div>
+            <form action="">
+                <div class="nome-receita">
+                <label for="nome">nome da receita</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                
+                <label for="categorias">tipo da receita</label>
+                <select name="categorias" id="categorias" required>
+                    <option value="nada">selecionar</option>
+                    <option value="caseira">caseira</option>
+                    <option value="fitness">fitness</option>
+                    <option value="iniciantes">iniciantes</option>
+                    <option value="internacionais">internacionais</option>
+                    <option value="rapidas">rapidas</option>
+                    
+                </select>
+                </div>
+                <div class="ingredientes">
+                <label for="ingredientes">ingredientes:</label>
+                    <textarea name="ingredientes" rows="15" cols="30" id="ingredientes" placeholder="digite aqui..." required></textarea>
+                </div>
+                <div class="modo-preparo">
+                    <label for="modo-preparo">modo de preparo:</label>
+                    <textarea name="modo-preparo" rows="15" cols="30" id="modo-preparo" placeholder="digite aqui..." required></textarea>
+                </div>
+                <button type="submit">enviar</button>
+                <button type="reset">limpar</button>
+            </form>
     </main>
     <footer>
         <div class="footer-div">
