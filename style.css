@@ -152,29 +152,29 @@ main button:hover {
 }
 
 footer {
-    padding: 50px;
-    background-color: rgb(192, 191, 191);
+    padding: 50px !important;
+    background-color: rgb(192, 191, 191) !important;
 }
 
 footer .footer-div {
     display: flex !important;
-    align-items: center;
-    justify-content: space-around;
-    align-items: baseline;
+    align-items: center!important;
+    justify-content: space-around !important;
+    align-items: baseline !important;
 }
 
 footer .sobre a {
-    display: flex;
-    justify-content: baseline;
-    text-decoration: none; 
-    color: black;   
+    display: flex !important;
+    justify-content: baseline !important;
+    text-decoration: none !important; 
+    color: black !important;   
 }
 
 footer .copyright p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    opacity: 0.5;
-    font-size: 12px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-top: 10px !important;
+    opacity: 0.5 !important;
+    font-size: 12px !important;
 }
