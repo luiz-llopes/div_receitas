@@ -35,6 +35,4 @@ Um site de receitas rápidas e fáceis, ideal para quem busca praticidade na coz
 
 Este projeto está sob a licença MIT.  
 
----
 
-Se quiser personalizar mais alguma parte, só avisar! 🚀
