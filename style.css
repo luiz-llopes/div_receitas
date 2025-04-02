@@ -113,6 +113,7 @@ main .receitas-rapidas p, .receitas-caseiras p, .receitas-fitness p, .receitas-i
 
 main .receitas-rapidas img, .receitas-caseiras img, .receitas-fitness img, .receitas-internacionais img, .receitas-iniciantes img {
     width: 300px;
+    border-radius: 10px;
 }
 
 main .receitas-rapidas .receitas-rapidas-grade, .receitas-caseiras .receitas-caseiras-grade, .receitas-fitness .receitas-fitness-grade, 
@@ -120,6 +121,7 @@ main .receitas-rapidas .receitas-rapidas-grade, .receitas-caseiras .receitas-cas
     display: flex;
     width: 100%;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 main form {
