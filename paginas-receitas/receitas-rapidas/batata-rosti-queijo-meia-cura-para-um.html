@@ -46,7 +46,7 @@
             </ul>
         </div>
         <div class="modo-de-preparo-batata-rosti">
-            <h2>Modo De Peparo:</h2>
+            <h2>Modo De Preparo:</h2>
             <ol>
                 <li>Lave, descasque e passe a batata pela parte grossa do ralador. Transfira para o centro de um pano de prato limpo, forme uma trouxinha e torça bem sobre a pia para extrair o excesso de água da batata.</li>
                 <li>Transfira a batata para uma tigela e tempere com sal e pimenta-do-reino a gosto.</li>
@@ -56,6 +56,33 @@
                 <li>Volte a frigideira ao fogo baixo e deixe o outro lado cozinhar até dourar por mais 6 minutos. Transfira para um prato e sirva a seguir com folhas de rúcula e o molho de mostarda e mel.</li>
             </ol>
         </div>
+        <a href="/paginas-principais-receitas/receitas-rapidas.html">voltar</a>
+        <form action="">
+            <h3>Junte-se à nossa comunidade e compartilhe a sua receita rapida e facil!</h3>            
+            <div class="nome-receita">
+                <label for="nome">Nome da receita</label>
+                <input type="text" id="nome" name="nome" placeholder="digite aqui..." required>
+                <label for="categorias">Tipo da receita</label>
+                <select name="categorias" id="categorias" required>
+                    <option value="nada">Selecionar</option>
+                    <option value="caseira">Caseira</option>
+                    <option value="fitness">Fitness</option>
+                    <option value="iniciantes">Iniciantes</option>
+                    <option value="internacionais">Internacionais</option>
+                    <option value="rapidas">Rapidas</option>
+                </select>
+            </div>
+            <div class="ingredientes">
+                <label for="ingredientes">Ingredientes:</label>
+                    <textarea name="ingredientes" rows="15" cols="30" id="ingredientes" placeholder="digite aqui..." required></textarea>
+                </div>
+                <div class="modo-preparo">
+                    <label for="modo-preparo">Modo de preparo:</label>
+                    <textarea name="modo-preparo" rows="15" cols="30" id="modo-preparo" placeholder="digite aqui..." required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
     </main>
     <footer>
         <div class="footer-div">

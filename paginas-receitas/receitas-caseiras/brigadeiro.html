@@ -33,7 +33,7 @@
         <div class= "Brigadeiro">
             <h1> Brigadeiro caseiro </h1>
             <img src="../../imagens/img-brigadeiro.jpg" alt="Brigadeiro ">
-        
+        </div>
         <div class="ingredientes-brigadeiro">
             <h2>ingredientes:</h2>
             <ul>
@@ -44,14 +44,41 @@
             </ul>
         </div>
         <div class="modo-de-preparo-brigadeiro">
-            <h2>Modo De Peparo:</h2>
+            <h2>Modo De Preparo:</h2>
             <ol>
                 <li>Em uma panela funda, acrescente o leite condensado,a margarina e o<br> chocolate em pó </li>
                 <li>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela </li>
                 <li>Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado </li>
             </ol>
         </div>
-        </div>
+        <a href="/paginas-principais-receitas/receitas-caseiras.html">voltar</a>
+
+        <form action="">
+            <h3>Junte-se à nossa comunidade e compartilhe a sua receita caseira!</h3>
+            <div class="nome-receita">
+                <label for="nome">Nome da receita</label>
+                <input type="text" id="nome" name="nome" placeholder="digite aqui..." required>
+                <label for="categorias">Tipo da receita</label>
+                <select name="categorias" id="categorias" required>
+                    <option value="nada">Selecionar</option>
+                    <option value="caseira">Caseira</option>
+                    <option value="fitness">Fitness</option>
+                    <option value="iniciantes">Iniciantes</option>
+                    <option value="internacionais">Internacionais</option>
+                    <option value="rapidas">Rapidas</option>
+                </select>
+            </div>
+            <div class="ingredientes">
+                <label for="ingredientes">Ingredientes:</label>
+                    <textarea name="ingredientes" rows="15" cols="30" id="ingredientes" placeholder="digite aqui..." required></textarea>
+                </div>
+                <div class="modo-preparo">
+                    <label for="modo-preparo">Modo de preparo:</label>
+                    <textarea name="modo-preparo" rows="15" cols="30" id="modo-preparo" placeholder="digite aqui..." required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
     </main>
     <footer>
         <div class="footer-div">

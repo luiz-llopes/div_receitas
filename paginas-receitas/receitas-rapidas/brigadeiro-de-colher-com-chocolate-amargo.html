@@ -45,13 +45,40 @@
             </ul>
         </div>
         <div class="modo-de-preparo-brigadeiro">
-            <h2>Modo De Peparo:</h2>
+            <h2>Modo De Preparo:</h2>
             <ol>
                 <li>Numa panela pequena junte a manteiga, o leite condensado e o chocolate em pedaços. Leve ao fogo médio e mexa com uma espátula de silicone até o chocolate e a manteiga derreterem.</li>
                 <li>Mantenha a panela em fogo médio e troque a espátula pelo batedor de arame – ele ajuda a deixar o brigadeiro mais cremoso. Continue mexendo, até começar a soltar do fundo da panela – no total, o brigadeiro leva cerca de 8 minutos para ficar pronto.</li>
                 <li>Transfira o brigadeiro ainda quente para uma tábua e espalhe com a espátula — se preferir, sirva o brigadeiro numa tigela ou num prato fundo. Deixe amornar e sirva polvilhado com nibs de cacau.</li>
             </ol>
         </div>
+        <a href="/paginas-principais-receitas/receitas-rapidas.html">voltar</a>
+        <form action="">
+            <h3>Junte-se à nossa comunidade e compartilhe a sua receita rapida e facil!</h3>            
+            <div class="nome-receita">
+                <label for="nome">Nome da receita</label>
+                <input type="text" id="nome" name="nome" placeholder="digite aqui..." required>
+                <label for="categorias">Tipo da receita</label>
+                <select name="categorias" id="categorias" required>
+                    <option value="nada">Selecionar</option>
+                    <option value="caseira">Caseira</option>
+                    <option value="fitness">Fitness</option>
+                    <option value="iniciantes">Iniciantes</option>
+                    <option value="internacionais">Internacionais</option>
+                    <option value="rapidas">Rapidas</option>
+                </select>
+            </div>
+            <div class="ingredientes">
+                <label for="ingredientes">Ingredientes:</label>
+                    <textarea name="ingredientes" rows="15" cols="30" id="ingredientes" placeholder="digite aqui..." required></textarea>
+                </div>
+                <div class="modo-preparo">
+                    <label for="modo-preparo">Modo de preparo:</label>
+                    <textarea name="modo-preparo" rows="15" cols="30" id="modo-preparo" placeholder="digite aqui..." required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
     </main>
     <footer>
         <div class="footer-div">

@@ -30,46 +30,61 @@
         </div>
     </header>
     <main>
-        <!-- Tabela para centralizar o conteúdo principal -->
-    <table width="100%" height="100%">
-        <tr>
-            <td align="center" valign="middle">
-                <h1>Receitas Caseiras</h1>
-                <p>Bem-vindo à nossa coleção de receitas caseiras! Explore nossas deliciosas opções de pratos para o dia a dia.</p>
-            </td>
-        </tr>
-    </table>
-
-    <!-- Centralizando as 3 imagens lado a lado -->
-    <div align="center">
-        <!-- Cada imagem dentro de uma <div> com estilo inline -->
-        <div style="display: inline-block; margin: 10px;">
-            <img src="https://s2-receitas.glbimg.com/MYETkrGEgQv5Vmnthh3BhMEhxHw=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/q/6/dRW2LaRMaYNTYqu8zIhg/fricasse-de-frango.jpg" width="300" height="300" alt="Fricassê de Frango">
-        </div>
-        <div style="display: inline-block; margin: 10px;">
-            <img src="https://www.minhareceita.com.br/app/uploads/2020/10/fricasse-de-frango-desktop.jpg" width="300" height="300" alt="Fricassê de Frango">
-        </div>
-        <div style="display: inline-block; margin: 10px;">
-            <img src="https://receiterapia.com.br/wp-content/uploads/2024/07/fricasse-de-frango.jpg" width="300" height="300" alt="Fricassê de Frango">
-        </div>
+    <div class="fricasse-de-frango">
+            <h1>fricasse de frango</h1>
+            <img src="/imagens/fricasse-1628262666.webp" alt="fricasse de frango">
     </div>
-    <h3>Ingredientes:</h3>
-    <li> 1 lata de creme de leite </li>
-    <li> 1 copo de requeijão cremoso</li>
-    <li> 2 peitos de frango desfiados</li>
-    <li> 100g de batata palha</li>
-    <li> 1 pitada de sal </li>
-    <li> 1 lata de milho verde</li>
-    <li> 100g de azeitona sem caroço</li>
-    <li> 200g de mussarela fatiada</li>
-    <li>1 xicara de água</li> 
-    <p></p>
+    <div class="ingredientes-fricasee-frango">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li> 1 lata de creme de leite </li>
+            <li> 1 copo de requeijão cremoso</li>
+            <li> 2 peitos de frango desfiados</li>
+            <li> 100g de batata palha</li>
+            <li> 1 pitada de sal </li>
+            <li> 1 lata de milho verde</li>
+            <li> 100g de azeitona sem caroço</li>
+            <li> 200g de mussarela fatiada</li>
+            <li>1 xicara de água</li> 
+        </ul>
+    </div>
+    <div class="modo-de-preparo-fricasse">
     <H3> Modo de preparo: </H3>
-    <ol> <li> Bata no liquidificador o milho, o requeijão, o creme de leite e a água.</li>
-    <li>  Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.</li>
-     <li> coloque o refogado numas assadeira,cubra com mussarrela e espaplhe a batata palha por cima.</li>
-    <li>  Leve ao forno até borbulhar.</li></ol>
-    
+        <ol>
+            <li> Bata no liquidificador o milho, o requeijão, o creme de leite e a água.</li>
+            <li>  Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.</li>
+            <li> coloque o refogado numas assadeira,cubra com mussarrela e espaplhe a batata palha por cima.</li>
+            <li>  Leve ao forno até borbulhar.</li>
+        </ol>
+    </div>
+    <a href="/paginas-principais-receitas/receitas-caseiras.html">voltar</a>
+
+    <form action="">
+        <h3>Junte-se à nossa comunidade e compartilhe a sua receita caseira!</h3>
+        <div class="nome-receita">
+            <label for="nome">Nome da receita</label>
+            <input type="text" id="nome" name="nome" placeholder="digite aqui..." required>
+            <label for="categorias">Tipo da receita</label>
+            <select name="categorias" id="categorias" required>
+                <option value="nada">Selecionar</option>
+                <option value="caseira">Caseira</option>
+                <option value="fitness">Fitness</option>
+                <option value="iniciantes">Iniciantes</option>
+                <option value="internacionais">Internacionais</option>
+                <option value="rapidas">Rapidas</option>
+            </select>
+        </div>
+        <div class="ingredientes">
+            <label for="ingredientes">Ingredientes:</label>
+                <textarea name="ingredientes" rows="15" cols="30" id="ingredientes" placeholder="digite aqui..." required></textarea>
+            </div>
+            <div class="modo-preparo">
+                <label for="modo-preparo">Modo de preparo:</label>
+                <textarea name="modo-preparo" rows="15" cols="30" id="modo-preparo" placeholder="digite aqui..." required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
     </main>
     <footer>
         <div class="footer-div">
