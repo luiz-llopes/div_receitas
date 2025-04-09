@@ -124,7 +124,7 @@ main .pais:hover {
     color: rgb(255, 119, 56);
 }
 
-main .receitas-rapidas p, .receitas-caseiras p, .receitas-fitness p, .receitas-internacionais p, .receitas-iniciantes p, .adicionar-receitas p{
+main .receitas-rapidas p, .receitas-caseiras p, .receitas-fitness p, .receitas-internacionais p, .receitas-iniciantes p{
     font-size: 15px;
 }
 
@@ -141,33 +141,18 @@ main .receitas-rapidas .receitas-rapidas-grade, .receitas-caseiras .receitas-cas
     border-radius: 10px;
 }
 
-main .adicionar-receitas{
-    display: flex;
-    align-items: center;
+main form {
     background: rgb(238, 238, 194);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-}
-
-
-main .adicionar-receitas form {
-    width: 98%;
+    width: 500px;
 }
 
 main label {
     font-weight: bold;
     display: block;
     margin-top: 10px;
-}
-
-main .adicionar-receitas input::placeholder, textarea::placeholder {
-    color: rgba(0, 0, 0, 0.192);
-}
-
-main .adicionar-receitas select {
-    color: rgba(0, 0, 0, 0.192);
 }
 
 main input, select, textarea {
@@ -179,18 +164,10 @@ main input, select, textarea {
     font-size: 14px;
 }
 
-main .adicionar-receitas button {
-    width: 170px;
-    height: 50px;
-    margin-top: 10px;
-    background-color: #f2d389;
-    border: 0px;
-    border-radius: 10px;
-}
-
-main .adicionar-receitas button:hover {
+main button:hover {
     opacity: 0.8;
     color :rgb(238, 238, 194);
+    
 }
 
 footer {
