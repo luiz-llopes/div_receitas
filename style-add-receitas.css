@@ -164,6 +164,15 @@ main input, select, textarea {
     font-size: 14px;
 }
 
+main .adicionar-receitas button {
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #f2d389;
+    border: 0px;
+    border-radius: 10px;
+}
+
 main button:hover {
     opacity: 0.8;
     color :rgb(238, 238, 194);
